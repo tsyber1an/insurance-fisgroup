@@ -34,7 +34,7 @@
 </xsl:template>
 
 <xsl:template name="css">
-	<link rel="stylesheet" href="jquery-ui.custom.css"/>
+	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.17/themes/base/jquery-ui.css"/>
 	<style type="text/css">
 		* { margin: 0; padding: 0; }
 		body { }
@@ -118,8 +118,8 @@
 </xsl:template>
 
 <xsl:template name="javascript">
-	<script type='text/javascript' encoding='utf-8' src="jquery-1.4.2.min.js"></script>
-	<script type='text/javascript' encoding='utf-8' src="jquery-ui-1.8.custom.min.js"></script>
+	<script type='text/javascript' encoding='utf-8' src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type='text/javascript' encoding='utf-8' src="http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.8.17/jquery-ui.min.js"></script>
 	<script type='text/javascript' encoding='utf-8'>
 	
 		/*
